@@ -41,7 +41,7 @@ class Heap{
             let swapIdx = null
             if (leftChildIdx < length){
                 leftChild = this.values[leftChildIdx]
-                if (leftChild > parent){
+                if (leftChild > element){
                     swapIdx = leftChildIdx
                 }
             }
