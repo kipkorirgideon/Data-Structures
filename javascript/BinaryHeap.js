@@ -32,8 +32,8 @@ class MaxBinaryHeap{
     }
     puppleDown(){
         let Idx = 0;
-        let length = this.values.length
         let element = this.values[Idx]
+        let length = this.values.length
         let leftChildIdx, rightChildIdx, leftChild, rightChild, swapIdx;
         while(true){
             leftChildIdx = 2 * Idx + 1
@@ -143,12 +143,12 @@ class MinBinaryHeap{
     }
 }
 
-let minBinaryHeap = new MinBinaryHeap()
-minBinaryHeap.insert(50)
-minBinaryHeap.insert(40)
-minBinaryHeap.insert(60)
-minBinaryHeap.insert(30)
-minBinaryHeap.insert(70)
-minBinaryHeap.insert(20)
-minBinaryHeap.insert(80)
-minBinaryHeap.insert(10)
+// let minBinaryHeap = new MinBinaryHeap()
+// minBinaryHeap.insert(50)
+// minBinaryHeap.insert(40)
+// minBinaryHeap.insert(60)
+// minBinaryHeap.insert(30)
+// minBinaryHeap.insert(70)
+// minBinaryHeap.insert(20)
+// minBinaryHeap.insert(80)
+// minBinaryHeap.insert(10)
